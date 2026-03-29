@@ -118,7 +118,7 @@ export function StreamingResponse({
                     const streamConclusion = () => {
                       if (
                         conclusionIndex <
-                        conclusionWords.length
+                        conclusionWords.length - 1
                       ) {
                         setDisplayedConclusion(
                           (prev) =>
